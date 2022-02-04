@@ -1,51 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bonjur</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Web Studio</title>
 </head>
 <body>
-    <h1>Bonjur my dear boys and girls</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, adipisci.</p>
-<table>
-    <thead>
-        <tr>
-            <th>Номер</th>
-            <th>Маршрут</th>
-            <th>Время в пути</th>
-        </tr>
-    </thead>
+    <!-- Шапка сайта-->
+    <header>
+        <nav>
+            <a lang="en" href="/">
+                WebStudio
+            </a>
+            <ul>
+                <li><a href="">Студия</a></li>
+                <li><a href="./portfolio.html">Портфолио</a></li>
+                <li><a href="">Контакты</a></li>
+            </ul>
+        </nav>
+        <ul>
+            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+    </header>
 
-    <tbody>
-        <tr>
-            <td>433</td>
-            <td>Киев - Ковель</td>
-            <td class="section">5 часов</td>
-        </tr>
-        <tr>
-            <td>701</td>
-            <td>Харьков - Днепр</td>
-            <td>7 часов</td>
-        </tr>
-        <tr>
-            <td>258</td>
-            <td>Львов - Одесса</td>
-            <td>4 часа</td>
-        </tr>
-    </tbody>
-</table>
+    <main>
+    <!--Герой-->
+    <section>
+            <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+            <button type="button">Заказать услугу</button>
+    </section>
 
-<div>
-Marketing
+    <!--Преимущества компании-->
+    <section>
+        <ul>
+            <li>
+                <h3>Внимание к деталям</h3>
+                <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            </li>
+            <li>
+                <h3>Пунктуальность</h3>
+                <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+            </li>
+            <li>
+                <h3>Планирование</h3>
+                <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+            </li>
+            <li>
+                <h3>Современные технологии</h3>
+                <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            </li>
+        </ul>
+    </section>
 
+    <!--Занятия компании-->
+    <section>
+        <h2>Чем мы занимаемся</h2>
+        <ul>
+            <li><img src="./images/creating.jpg" alt="Верстка сайта" width="370" height="294"></li>
+            <li><img src="./images/select.jpg" alt="Выбор интерфейса для мобильного устройства" width="370" height="294"></li>
+            <li><img src="./images/graphic.jpg" alt="Работа с графикой" width="370" height="294"></li>
+        </ul>
+    </section>
 
-</div>
+    <!--Команда проэкта-->
+    <section>
+        <h2>Наша команда</h2>
+            <ul>
+                <li>
+                    <img src="./images/product-designer.jpg" alt="Product Designer" width="270" height="260">
+                        <h3>Игорь Демьяненко</h3>
+                        <p lang="en">Product Designer</p>
+                </li>
+                <li>
+                    <img src="./images/developer.jpg" alt="Frontend Developer" width="270" height="260">
+                        <h3>Ольга Репина</h3>
+                        <p lang="en">Frontend Developer</p>
+                </li>
+                <li>
+                    <img src="./images/marketing.jpg" alt="Marketing" width="270" height="260">
+                        <h3>Николай Тарасов</h3>
+                        <p lang="en">Marketing</p>
+                </li>
+                <li>
+                        <img src="./images/ui.jpg" alt="UI Designer" width="270" height="260">
+                            <h3>Михаил Ермаков</h3>
+                            <p lang="en">UI Designer</p>
+                </li>
+            </ul>
+    </section>
+    </main>
 
-
-
-
-    </table>
+    <!-- Футер -->
+    <footer>
+        <a lang="en" href="/">
+            WebStudio
+        </a>
+        <address>
+            г. Киев, пр-т Леси Украинки, 26
+        </address>
+    
+        <address>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="tel:+380961111111">+38 096 111 11 11</a>
+        </address>
+    </footer>
 </body>
 </html>
