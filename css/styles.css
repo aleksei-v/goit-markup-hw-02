@@ -3,15 +3,14 @@ accent-color: #2196f3; +
 задний черный фон #2f303a+
 основной цет #757575 +
 цвет для лого #000000 +
-переливка #188ce8
+переливка #188ce8+
 основной цвет для заголовков #212121+
 задний фон #f5f4fa+
-белый цвет на черном фоне #ffffff
+белый цвет на черном фоне #ffffff+
 */
 :root {
   --major-font-family: 'Roboto', sans-serif;
   --secondary-font-family: 'Raleway', sans-serif;
-  --major-font-size: 14px;
   --major-line-height: 1.19;
   --major-letter-spacing: 0.03em;
   --accent-color: #2196f3;
@@ -27,7 +26,7 @@ accent-color: #2196f3; +
 body {
   font-family: var(--major-font-family);
   font-weight: 500;
-  font-size: var(--major-font-size);
+  font-size: 14px;
   line-height: var(--major-line-height);
   letter-spacing: var(--major-letter-spacing);
   color: var(--major-text-color);
@@ -119,13 +118,14 @@ body {
 
 /*=== start advantages ===*/
 .advantages-title {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--color-titles);
 }
 .advantages-discription {
-  line-height: 1, 71;
+  line-height: 1.71;
   color: var(--major-text-color);
 }
 /*=== end advantages ===*/
