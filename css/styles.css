@@ -1,0 +1,201 @@
+/* Цвета (оставил себе для понимания)
+accent-color: #2196f3; +
+задний черный фон #2f303a+
+основной цет #757575 +
+цвет для лого #000000 +
+переливка #188ce8
+основной цвет для заголовков #212121+
+задний фон #f5f4fa+
+белый цвет на черном фоне #ffffff
+*/
+:root {
+  --major-font-family: 'Roboto', sans-serif;
+  --secondary-font-family: 'Raleway', sans-serif;
+  --major-font-size: 14px;
+  --major-line-height: 1.19;
+  --major-letter-spacing: 0.03em;
+  --accent-color: #2196f3;
+  --logo-color: #000000;
+  --background-color: #2f303a;
+  --backgroud-light-color: #f5f4fa;
+  --color-titles: #212121;
+  --color-action-btn: #188ce8;
+  --major-color-light: #ffffff;
+  --major-text-color: #757575;
+}
+
+body {
+  font-family: var(--major-font-family);
+  font-weight: 500;
+  font-size: var(--major-font-size);
+  line-height: var(--major-line-height);
+  letter-spacing: var(--major-letter-spacing);
+  color: var(--major-text-color);
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* start components */
+.logo-part {
+  color: var(--accent-color);
+}
+.contacts-item {
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--major-text-color);
+}
+
+.contacts-item:hover,
+.contacts-item:focus {
+  color: var(--accent-color);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--color-titles);
+}
+/*=== end components ===*/
+
+/*=== start header ===*/
+.top-logo {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--logo-color);
+}
+.nav-list-item {
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-titles);
+}
+.nav-list-item:hover,
+.nav-list-item:focus {
+  color: var(--accent-color);
+}
+.active-page {
+  color: var(--accent-color);
+}
+/*=== end header ===*/
+
+/*=== start hero ===*/
+.hero {
+  background-color: var(--background-color);
+}
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--major-color-light);
+}
+.btn-hero {
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--major-color-light);
+  background: var(--accent-color);
+  border: none;
+}
+.btn-hero:hover,
+.btn-hero:focus {
+  background-color: var(--color-action-btn);
+}
+/*=== end hero ===*/
+
+/*=== start advantages ===*/
+.advantages-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--color-titles);
+}
+.advantages-discription {
+  line-height: 1, 71;
+  color: var(--major-text-color);
+}
+/*=== end advantages ===*/
+
+/*=== start out team ===*/
+
+.our-team {
+  background-color: var(--backgroud-light-color);
+}
+.employee-name {
+  font-size: 16px;
+  text-align: center;
+  color: var(--color-titles);
+}
+.employee-position {
+  font-size: 16px;
+  text-align: center;
+  color: var(--major-text-color);
+}
+/*=== end out team ===*/
+
+/*=== start footer ===*/
+.footer {
+  background-color: var(--background-color);
+}
+.address {
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--major-color-light);
+}
+
+.bottom-logo {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--major-color-light);
+}
+/*=== end footer ===*/
+
+/*=== START PORTFOLIO.HTML ===*/
+
+/*=== start options ===*/
+.options {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--color-titles);
+  background-color: var(--backgroud-light-color);
+  border: none;
+  cursor: pointer;
+}
+.active-btn {
+  color: var(--major-color-light);
+  background-color: var(--accent-color);
+}
+/*=== end options ===*/
+
+/*=== start portfolio options ===*/
+
+.portfolio-item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-titles);
+}
+.portfolio-option {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--major-text-color);
+}
+/*=== end portfolio options ===*/
